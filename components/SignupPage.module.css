@@ -1,0 +1,120 @@
+.signup {
+  display: flex;
+  justify-content: center;
+}
+
+.image_frame {
+  height: 100vh;
+  flex: 0 0 50%;
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  left: 200px;
+  top: 150px;
+}
+
+.form {
+  flex: 0 0 50%;
+  padding-left: 200px;
+  padding-top: 50px;
+}
+
+.title {
+  text-align: center;
+  margin-right: 250px;
+  margin-bottom: 100px;
+}
+
+.title h1 {
+  font-size: 40px;
+}
+
+.title p {
+  font-size: 12px;
+}
+
+.input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  font-size: 12px;
+  height: 100%;
+  outline: 0;
+  padding: 12px 20px 12px;
+  width: 60%;
+  display: block;
+}
+
+.signup_btn {
+  margin-top: 25px;
+  background-color: #e01713;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 14px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  width: 60%;
+}
+
+.action_text {
+  padding-left: 50px;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.account {
+  display: inline-block;
+  margin-right: 10px;
+  padding-left: 80px;
+}
+
+.login_btn {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .signup {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .image_frame {
+    flex: 0 0 100%;
+    height: 70vh;
+  }
+
+  .image {
+    left: 50px;
+    top: 0px;
+  }
+
+  .form {
+    flex: 0 0 100%;
+    padding-left: 150px;
+  }
+
+  .title {
+    text-align: center;
+    margin-right: 170px;
+    margin-bottom: 70px;
+  }
+
+  .action_text {
+    padding-left: 30px;
+    margin-top: 20px;
+  }
+
+  .account {
+    margin-right: 5px;
+    padding-left: 0px;
+  }
+}
